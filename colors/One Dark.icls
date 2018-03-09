@@ -525,6 +525,11 @@
         <option name="FOREGROUND" value="98c476" />
       </value>
     </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="abc059" />
+      </value>
+    </option>
     <option name="DEPRECATED_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="c0c0c0" />
@@ -1394,6 +1399,11 @@
         <option name="FOREGROUND" value="c679dd" />
       </value>
     </option>
+    <option name="PY.KEYWORD_ARGUMENT">
+      <value>
+        <option name="FOREGROUND" value="f88f54" />
+      </value>
+    </option>
     <option name="PY.LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="59626f" />
@@ -1402,7 +1412,7 @@
     </option>
     <option name="PY.NUMBER">
       <value>
-        <option name="FOREGROUND" value="d2945d" />
+        <option name="FOREGROUND" value="ffd969" />
       </value>
     </option>
     <option name="PY.PARAMETER">
