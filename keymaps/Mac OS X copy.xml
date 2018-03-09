@@ -5,14 +5,11 @@
   </action>
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
-  <action id="ChangesView.Diff" />
   <action id="CloseActiveTab" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="meta w" />
   </action>
-  <action id="CompareTwoFiles" />
   <action id="DecrementWindowHeight" />
-  <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta semicolon" />
@@ -20,7 +17,6 @@
   <action id="EditorDeleteToLineEnd">
     <keyboard-shortcut first-keystroke="shift meta semicolon" />
   </action>
-  <action id="EditorDuplicate" />
   <action id="EditorDuplicateLines">
     <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
@@ -35,7 +31,6 @@
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="meta 3" />
   </action>
-  <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="meta e" />
@@ -91,25 +86,13 @@
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="ctrl meta left" />
   </action>
-  <action id="QuickImplementations">
-    <keyboard-shortcut first-keystroke="shift meta i" />
-    <keyboard-shortcut first-keystroke="shift meta g" />
-  </action>
   <action id="RecentFiles" />
   <action id="Replace" />
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
-  <action id="RunDashboard.CopyConfiguration" />
-  <action id="SelectNextOccurrence">
-    <keyboard-shortcut first-keystroke="ctrl g" />
-    <keyboard-shortcut first-keystroke="meta d" />
-  </action>
-  <action id="SendEOF" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
   <action id="Vcs.UpdateProject" />
-  <action id="XDebugger.CopyWatch" />
-  <action id="openAssertEqualsDiff" />
 </keymap>
