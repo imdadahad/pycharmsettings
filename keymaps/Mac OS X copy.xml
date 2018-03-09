@@ -13,6 +13,7 @@
   <action id="DecrementWindowHeight" />
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
+  <action id="EditorCodeBlockStart" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta semicolon" />
   </action>
@@ -40,6 +41,9 @@
   </action>
   <action id="EditorTextStart">
     <keyboard-shortcut first-keystroke="meta up" />
+  </action>
+  <action id="EditorUnindentSelection">
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
   </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.TogglePathShowing" />
