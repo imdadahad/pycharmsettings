@@ -1,4 +1,7 @@
 <keymap version="1" name="Mac OS X copy" parent="Mac OS X">
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="CloseActiveTab" />
@@ -45,22 +48,24 @@
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="meta r" />
   </action>
-  <action id="HideSideWindows">
+  <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="meta back_slash" />
   </action>
   <action id="IncrementWindowHeight" />
+  <action id="MethodDown">
+    <keyboard-shortcut first-keystroke="alt down" />
+  </action>
+  <action id="MethodUp">
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="ctrl meta down" />
   </action>
   <action id="MoveLineUp">
     <keyboard-shortcut first-keystroke="ctrl meta up" />
   </action>
-  <action id="MoveStatementDown">
-    <keyboard-shortcut first-keystroke="alt down" />
-  </action>
-  <action id="MoveStatementUp">
-    <keyboard-shortcut first-keystroke="alt up" />
-  </action>
+  <action id="MoveStatementDown" />
+  <action id="MoveStatementUp" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl meta right" />
   </action>
@@ -76,4 +81,5 @@
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
+  <action id="Vcs.UpdateProject" />
 </keymap>
