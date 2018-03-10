@@ -62,18 +62,14 @@
     <keyboard-shortcut first-keystroke="meta close_bracket" />
   </action>
   <action id="EditorLineEndWithSelection">
-    <keyboard-shortcut first-keystroke="shift end" />
+    <keyboard-shortcut first-keystroke="shift meta right" />
   </action>
   <action id="EditorLineStartWithSelection">
     <keyboard-shortcut first-keystroke="shift meta left" />
   </action>
-  <action id="EditorMoveToPageBottomWithSelection">
-    <keyboard-shortcut first-keystroke="shift meta down" />
-  </action>
+  <action id="EditorMoveToPageBottomWithSelection" />
   <action id="EditorMoveToPageTop" />
-  <action id="EditorMoveToPageTopWithSelection">
-    <keyboard-shortcut first-keystroke="shift meta up" />
-  </action>
+  <action id="EditorMoveToPageTopWithSelection" />
   <action id="EditorScrollDown" />
   <action id="EditorScrollUp" />
   <action id="EditorSelectWord">
@@ -92,9 +88,15 @@
     <keyboard-shortcut first-keystroke="meta end" />
     <keyboard-shortcut first-keystroke="meta down" />
   </action>
+  <action id="EditorTextEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta down" />
+  </action>
   <action id="EditorTextStart">
     <keyboard-shortcut first-keystroke="meta home" />
     <keyboard-shortcut first-keystroke="meta up" />
+  </action>
+  <action id="EditorTextStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
   <action id="EditorUnindentSelection">
     <keyboard-shortcut first-keystroke="meta open_bracket" />
@@ -136,7 +138,7 @@
   <action id="IncrementWindowHeight" />
   <action id="IncrementWindowWidth" />
   <action id="Macro.Copy function">
-    <keyboard-shortcut first-keystroke="shift d" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="MainMenu">
     <keyboard-shortcut first-keystroke="ctrl l" />
