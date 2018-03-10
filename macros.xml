@@ -1,0 +1,16 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="Copy function">
+      <action id="MethodUp" />
+      <action id="EditorLineStart" />
+      <action id="EditorCodeBlockEndWithSelection" />
+      <action id="EditorDuplicateLines" />
+      <action id="EditorUp" />
+      <action id="MethodUp" />
+      <action id="EditorLineStart" />
+      <action id="EditorEnter" />
+      <action id="EditorEnter" />
+      <action id="EditorScrollToCenter" />
+    </macro>
+  </component>
+</application>

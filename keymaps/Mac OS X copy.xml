@@ -39,6 +39,9 @@
   <action id="Diff.ShowSettingsPopup" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="EditorChooseLookupItemCompleteStatement" />
+  <action id="EditorCodeBlockStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta left" />
+  </action>
   <action id="EditorCompleteStatement" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta semicolon" />
@@ -67,6 +70,9 @@
     <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
   <action id="EditorScrollDown" />
+  <action id="EditorScrollToCenter">
+    <keyboard-shortcut first-keystroke="meta m" />
+  </action>
   <action id="EditorScrollUp" />
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="meta 3" />
@@ -123,12 +129,16 @@
   </action>
   <action id="IncrementWindowHeight" />
   <action id="IncrementWindowWidth" />
+  <action id="Macro.Copy function">
+    <keyboard-shortcut first-keystroke="shift d" />
+  </action>
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="alt down" />
   </action>
   <action id="MethodUp">
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
+  <action id="MinimizeCurrentWindow" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="ctrl meta down" />
   </action>
