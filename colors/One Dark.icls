@@ -1,7 +1,7 @@
 <scheme name="One dark" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
-  <option name="LINE_SPACING" value="1.5" />
-  <option name="EDITOR_FONT_SIZE" value="24" />
+  <option name="LINE_SPACING" value="1.2" />
+  <option name="EDITOR_FONT_SIZE" value="26" />
   <option name="EDITOR_FONT_NAME" value="Inconsolata" />
   <option name="EDITOR_LIGATURES" value="true" />
   <colors>
@@ -527,7 +527,7 @@
     </option>
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="cde364" />
+        <option name="FOREGROUND" value="abc059" />
       </value>
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
@@ -1417,7 +1417,7 @@
     </option>
     <option name="PY.PARAMETER">
       <value>
-        <option name="FOREGROUND" value="ffbb7d" />
+        <option name="FOREGROUND" value="d19a66" />
       </value>
     </option>
     <option name="PY.PREDEFINED_DEFINITION">
@@ -1436,11 +1436,6 @@
     <option name="PY.STRING">
       <value>
         <option name="FOREGROUND" value="98c379" />
-      </value>
-    </option>
-    <option name="PY.STRING.B">
-      <value>
-        <option name="FOREGROUND" value="7d944a" />
       </value>
     </option>
     <option name="PY.VALID_STRING_ESCAPE">
