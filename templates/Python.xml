@@ -1,0 +1,9 @@
+<templateSet group="Python">
+  <template name="def" value="def $fnname$($args$):&#10;    $END$&#10;" toReformat="false" toShortenFQNames="true">
+    <variable name="fnname" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>
