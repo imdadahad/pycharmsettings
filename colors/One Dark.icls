@@ -525,9 +525,15 @@
         <option name="FOREGROUND" value="98c476" />
       </value>
     </option>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="cc3c3b" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="abc059" />
+        <option name="FOREGROUND" value="ffd866" />
       </value>
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
@@ -1375,7 +1381,7 @@
     </option>
     <option name="PY.DECORATOR">
       <value>
-        <option name="FOREGROUND" value="61afef" />
+        <option name="FOREGROUND" value="47b8e8" />
       </value>
     </option>
     <option name="PY.DOC_COMMENT">
@@ -1385,23 +1391,25 @@
     </option>
     <option name="PY.FUNC_DEFINITION">
       <value>
-        <option name="FOREGROUND" value="61afef" />
+        <option name="FOREGROUND" value="a9dc76" />
+        <option name="EFFECT_COLOR" value="3c3f41" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="PY.INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="68e868" />
+        <option name="FOREGROUND" value="e85355" />
         <option name="BACKGROUND" value="481515" />
       </value>
     </option>
     <option name="PY.KEYWORD">
       <value>
-        <option name="FOREGROUND" value="c679dd" />
+        <option name="FOREGROUND" value="ff6188" />
       </value>
     </option>
     <option name="PY.KEYWORD_ARGUMENT">
       <value>
-        <option name="FOREGROUND" value="f88f54" />
+        <option name="FOREGROUND" value="ff9356" />
       </value>
     </option>
     <option name="PY.LINE_COMMENT">
@@ -1417,7 +1425,7 @@
     </option>
     <option name="PY.PARAMETER">
       <value>
-        <option name="FOREGROUND" value="d19a66" />
+        <option name="FOREGROUND" value="fc9867" />
       </value>
     </option>
     <option name="PY.PREDEFINED_DEFINITION">
