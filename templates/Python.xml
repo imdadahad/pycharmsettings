@@ -13,7 +13,7 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="test_" value="def test_$fnname$(scoodle_db_session):&#10;    $END$" toReformat="false" toShortenFQNames="true">
+  <template name="test_" value="def test_$fnname$(scoodle_db_session):&#10;    $END$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="fnname" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
