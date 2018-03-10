@@ -71,6 +71,9 @@
   <action id="EditorMoveToPageTop" />
   <action id="EditorMoveToPageTopWithSelection" />
   <action id="EditorScrollDown" />
+  <action id="EditorScrollToCenter">
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
   <action id="EditorScrollUp" />
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="meta 3" />
@@ -142,9 +145,6 @@
   <action id="Macro.Copy function">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
-  <action id="MainMenu">
-    <keyboard-shortcut first-keystroke="ctrl l" />
-  </action>
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="alt down" />
   </action>
@@ -169,7 +169,9 @@
   </action>
   <action id="NextOccurence" />
   <action id="NextTab" />
-  <action id="ParameterInfo" />
+  <action id="ParameterInfo">
+    <keyboard-shortcut first-keystroke="meta 0" />
+  </action>
   <action id="PreviousOccurence" />
   <action id="PreviousTab" />
   <action id="QuickImplementations">
