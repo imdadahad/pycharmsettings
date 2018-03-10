@@ -6,4 +6,11 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="from" value="from $module$ import $name$&#10;$END$" toReformat="false" toShortenFQNames="true">
+    <variable name="module" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
