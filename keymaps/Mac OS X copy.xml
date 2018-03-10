@@ -140,7 +140,7 @@
   <action id="IncrementWindowHeight" />
   <action id="IncrementWindowWidth" />
   <action id="Macro.Copy function">
-    <keyboard-shortcut first-keystroke="shift d" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="MainMenu">
     <keyboard-shortcut first-keystroke="ctrl l" />
