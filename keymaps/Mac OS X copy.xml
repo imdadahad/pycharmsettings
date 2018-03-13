@@ -117,6 +117,9 @@
   <action id="Forward">
     <keyboard-shortcut first-keystroke="ctrl meta right" />
   </action>
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
   <action id="GotoChangedFile" />
   <action id="GotoClass" />
   <action id="GotoDeclaration">
