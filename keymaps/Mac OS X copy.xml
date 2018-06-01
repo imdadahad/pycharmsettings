@@ -210,6 +210,10 @@
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="meta m" />
   </action>
+  <action id="SplitSelection">
+    <keyboard-shortcut first-keystroke="ctrl meta l" />
+    <keyboard-shortcut first-keystroke="shift meta l" />
+  </action>
   <action id="UsageView.Exclude">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
