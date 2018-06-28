@@ -1,5 +1,9 @@
 <scheme name="Tomorrow Night" version="142" parent_scheme="Default">
+  <option name="FONT_SCALE" value="1.0" />
   <option name="LINE_SPACING" value="1.4" />
+  <option name="EDITOR_FONT_SIZE" value="27" />
+  <option name="EDITOR_FONT_NAME" value="Monaco" />
+  <option name="EDITOR_LIGATURES" value="true" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="295622" />
     <option name="CARET_COLOR" value="bbbbbb" />
@@ -78,11 +82,7 @@
         <option name="FOREGROUND" value="5394ec" />
       </value>
     </option>
-    <option name="CONSOLE_CYAN_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="6969" />
-      </value>
-    </option>
+    <option name="CONSOLE_CYAN_OUTPUT" baseAttributes="CONSOLE_NORMAL_OUTPUT" />
     <option name="CONSOLE_ERROR_OUTPUT">
       <value>
         <option name="FOREGROUND" value="b5bd68" />
