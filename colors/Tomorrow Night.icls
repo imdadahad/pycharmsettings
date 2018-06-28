@@ -247,12 +247,12 @@
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="78dce8" />
+        <option name="FOREGROUND" value="9fcae8" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="81a2be" />
+        <option name="FOREGROUND" value="9fcae8" />
       </value>
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
@@ -272,7 +272,7 @@
     </option>
     <option name="DEFAULT_INSTANCE_METHOD">
       <value>
-        <option name="FOREGROUND" value="81a2be" />
+        <option name="FOREGROUND" value="9fcae8" />
       </value>
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
@@ -353,7 +353,7 @@
     </option>
     <option name="DEFAULT_STATIC_METHOD">
       <value>
-        <option name="FOREGROUND" value="81a2be" />
+        <option name="FOREGROUND" value="9fcae8" />
       </value>
     </option>
     <option name="DEFAULT_STRING">
@@ -500,6 +500,11 @@
         <option name="FOREGROUND" value="b294bb" />
       </value>
     </option>
+    <option name="JS.REGEXP">
+      <value>
+        <option name="FOREGROUND" value="78dce8" />
+      </value>
+    </option>
     <option name="LOG_ERROR_OUTPUT">
       <value>
         <option name="FOREGROUND" value="b294bb" />
@@ -562,7 +567,7 @@
     </option>
     <option name="PY.KEYWORD">
       <value>
-        <option name="FOREGROUND" value="78dce8" />
+        <option name="FOREGROUND" value="9fcae8" />
       </value>
     </option>
     <option name="PY.KEYWORD_ARGUMENT">
