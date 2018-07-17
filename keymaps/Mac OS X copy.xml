@@ -17,7 +17,9 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
-  <action id="Back" />
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl meta left" />
+  </action>
   <action id="ChangesView.Diff" />
   <action id="ChooseRunConfiguration">
     <keyboard-shortcut first-keystroke="shift meta r" />
@@ -125,7 +127,9 @@
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="f3" />
   </action>
-  <action id="Forward" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="ctrl meta right" />
+  </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
@@ -175,14 +179,10 @@
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
   <action id="NextOccurence" />
-  <action id="NextTab">
-    <keyboard-shortcut first-keystroke="ctrl meta right" />
-  </action>
+  <action id="NextTab" />
   <action id="ParameterInfo" />
   <action id="PreviousOccurence" />
-  <action id="PreviousTab">
-    <keyboard-shortcut first-keystroke="ctrl meta left" />
-  </action>
+  <action id="PreviousTab" />
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="shift meta g" />
   </action>
