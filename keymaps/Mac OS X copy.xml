@@ -179,8 +179,16 @@
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
   <action id="NextOccurence" />
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="alt tab" />
+    <keyboard-shortcut first-keystroke="ctrl meta period" />
+  </action>
   <action id="NextTab" />
   <action id="ParameterInfo" />
+  <action id="PrevSplitter">
+    <keyboard-shortcut first-keystroke="shift alt tab" />
+    <keyboard-shortcut first-keystroke="ctrl meta comma" />
+  </action>
   <action id="PreviousOccurence" />
   <action id="PreviousTab" />
   <action id="QuickImplementations">
@@ -213,6 +221,9 @@
   <action id="SplitSelection">
     <keyboard-shortcut first-keystroke="ctrl meta l" />
     <keyboard-shortcut first-keystroke="shift meta l" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="ctrl meta slash" />
   </action>
   <action id="UsageView.Exclude">
     <keyboard-shortcut first-keystroke="delete" />
