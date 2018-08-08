@@ -153,6 +153,9 @@
   </action>
   <action id="IncrementWindowHeight" />
   <action id="IncrementWindowWidth" />
+  <action id="LocalHistory.ShowHistory">
+    <keyboard-shortcut first-keystroke="meta h" />
+  </action>
   <action id="Macro.Copy function">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
