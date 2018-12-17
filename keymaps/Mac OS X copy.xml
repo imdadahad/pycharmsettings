@@ -231,7 +231,7 @@
     <keyboard-shortcut first-keystroke="shift meta l" />
   </action>
   <action id="SplitVertically">
-    <keyboard-shortcut first-keystroke="ctrl meta slash" />
+    <keyboard-shortcut first-keystroke="ctrl meta v" />
   </action>
   <action id="UsageView.Exclude">
     <keyboard-shortcut first-keystroke="delete" />

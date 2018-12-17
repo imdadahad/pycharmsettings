@@ -12,5 +12,11 @@
       <action id="EditorEnter" />
       <action id="EditorScrollToCenter" />
     </macro>
+    <macro name="SplitVert">
+      <action id="GotoAction" />
+      <typing text-keycode="83:0;80:0;76:0;73:0;32:0;86:0;69:0;82:0">spli&amp;#x20;ver</typing>
+      <shortuct text="ENTER" />
+      <action id="SplitVertically" />
+    </macro>
   </component>
 </application>
