@@ -63,7 +63,7 @@
   <action id="EditorDeleteToLineEnd">
     <keyboard-shortcut first-keystroke="shift meta semicolon" />
   </action>
-  <action id="EditorDeleteToLineStart">
+  <action id="EditorDeleteToWordEnd">
     <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
   <action id="EditorDuplicate" />
