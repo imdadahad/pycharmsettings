@@ -4,7 +4,7 @@
     <property name="created">2018-11-09T12:15:55</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2018.1.0.0</property>
-    <property name="modified">2019-02-05T12:08:42</property>
+    <property name="modified">2019-02-19T11:51:47</property>
     <property name="originalScheme">Atom One Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.6" />
@@ -18,7 +18,7 @@
   </font>
   <console-font>
     <option name="EDITOR_FONT_NAME" value="Monaco" />
-    <option name="EDITOR_FONT_SIZE" value="24" />
+    <option name="EDITOR_FONT_SIZE" value="18" />
   </console-font>
   <console-font>
     <option name="EDITOR_FONT_NAME" value="Menlo" />
