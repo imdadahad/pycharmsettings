@@ -3,6 +3,7 @@
     <option name="version" value="2.4.1.5-2018.1" />
     <option name="highlightColor" value="80cbc4" />
     <option name="accentColor" value="80cbc4" />
+    <option name="upperCaseTabs" value="true" />
     <option name="useMaterialFont" value="false" />
     <option name="userId" value="-688b413:166fa1de741:-7fff" />
     <option name="allowDataCollection" value="true" />
