@@ -3,7 +3,13 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/projects/scoodle-api/app/api/user/user_bank_account_rest.py" timestamp="1559124723643" />
+      <file name="/projects/scoodle-api/models/email_notification_template_model.py" timestamp="1559130041317">
+        <mark key="'" line="421" column="40" />
+        <mark key="[" line="40" column="81" />
+        <mark key="]" line="42" column="81" />
+        <mark key="^" line="42" column="81" />
+        <mark key="." line="42" column="81" />
+      </file>
       <file name="/projects/scoodle-api/models/user_subscription_model.py" timestamp="1559127242971">
         <mark key="'" line="2" column="0" />
       </file>
@@ -13,18 +19,28 @@
         <mark key="^" line="34" column="15" />
         <mark key="." line="34" column="15" />
       </file>
+      <file name="/projects/scoodle-api/migrations/versions/201.py" timestamp="1559130222476">
+        <mark key="[" line="22" column="0" />
+        <mark key="]" line="22" column="45" />
+        <mark key="." line="22" column="0" />
+      </file>
+      <file name="/projects/scoodle-api/app/dao/subscription_dao.py" timestamp="1559129907484">
+        <mark key="[" line="3" column="38" />
+        <mark key="]" line="3" column="53" />
+        <mark key="^" line="3" column="53" />
+        <mark key="." line="3" column="53" />
+      </file>
       <file name="/projects/scoodle-api/app/api/resource/resource_rest.py" timestamp="1559126142326">
         <mark key="'" line="111" column="0" />
         <mark key="[" line="111" column="0" />
         <mark key="]" line="111" column="0" />
         <mark key="." line="111" column="0" />
       </file>
-      <file name="/projects/scoodle-api/app/api/user/user_subscription_rest.py" timestamp="1559127165323">
-        <mark key="'" line="28" column="3" />
-        <mark key="[" line="25" column="29" />
-        <mark key="]" line="21" column="0" />
-        <mark key="^" line="21" column="0" />
-        <mark key="." line="21" column="0" />
+      <file name="/projects/scoodle-api/app/controllers/subscription_controller.py" timestamp="1559129985103">
+        <mark key="[" line="43" column="58" />
+        <mark key="]" line="43" column="69" />
+        <mark key="." line="43" column="69" />
+        <mark key="^" line="43" column="69" />
       </file>
       <file name="/projects/scoodle-api/app/controllers/account_event_controller.py" timestamp="1559124888582">
         <mark key="'" line="229" column="4" />
@@ -43,6 +59,31 @@
       <file name="/projects/scoodle-api/models/subscription_model.py" timestamp="1559128229595">
         <mark key="'" line="0" column="0" />
       </file>
+      <file name="/projects/scoodle-api/config.py" timestamp="1559129821816">
+        <mark key="[" line="323" column="29" />
+        <mark key="." line="323" column="35" />
+      </file>
+      <file name="/projects/scoodle-api/migrations/versions/209.py" timestamp="1559130219129">
+        <mark key="[" line="21" column="0" />
+        <mark key="]" line="21" column="0" />
+        <mark key="." line="21" column="0" />
+      </file>
+      <file name="/projects/scoodle-api/app/api/user/user_bank_account_rest.py" timestamp="1559124723643" />
+      <file name="/projects/scoodle-api/app/clients/stripe_client.py" timestamp="1559129686721">
+        <mark key="'" line="72" column="8" />
+        <mark key="[" line="69" column="8" />
+        <mark key="]" line="69" column="13" />
+        <mark key="." line="69" column="13" />
+        <mark key="^" line="69" column="13" />
+      </file>
+      <file name="/projects/scoodle-api/app/api/user/user_subscription_rest.py" timestamp="1559129873534">
+        <mark key="'" line="28" column="3" />
+        <mark key="[" line="27" column="0" />
+        <mark key="]" line="30" column="89" />
+        <mark key="^" line="21" column="0" />
+        <mark key="." line="21" column="0" />
+      </file>
+      <file name="/projects/scoodle-api/scripts/start_app.sh" timestamp="1559130732205" />
     </filemarks>
     <jumps>
       <jump line="29" column="0" filename="/projects/scoodle-api/app/controllers/account_event_controller.py" />
@@ -53,32 +94,68 @@
       <jump line="28" column="3" filename="/projects/scoodle-api/app/api/user/user_subscription_rest.py" />
       <jump line="2" column="0" filename="/projects/scoodle-api/models/user_subscription_model.py" />
       <jump line="0" column="0" filename="/projects/scoodle-api/models/subscription_model.py" />
+      <jump line="72" column="8" filename="/projects/scoodle-api/app/clients/stripe_client.py" />
+      <jump line="419" column="40" filename="/projects/scoodle-api/models/email_notification_template_model.py" />
     </jumps>
     <registers>
       <register name="0" type="2">
-        <text encoding="base64">aW1wb3J0IHV1aWQKZnJvbSBmdW5jdG9vbHMgaW1wb3J0IHdyYXBzCgpmcm9tIGZsYXNrIGltcG9ydCBjdXJyZW50X2FwcAoKZnJvbSBhcHAgaW1wb3J0IHN0cmlwZV9jbGllbnQKZnJvbSBhcHAuY2VsZXJ5LnRhc2tzIGltcG9ydCB0cmlnZ2VyX2xhbWJkYSwgc2VuZF9zaW5nbGVfbWVzc2FnZQpmcm9tIGFwcC5jb25zdGFudHMgaW1wb3J0IFF1ZXVlTmFtZXMKZnJvbSBhcHAuY29udHJvbGxlcnMuY2hhdF9jb250cm9sbGVyIGltcG9ydCB1cHNlcnRfY2hhdF91c2VyCmZyb20gYXBwLmNvbnRyb2xsZXJzLmVtYWlsX25vdGlmaWNhdGlvbl9jb250cm9sbGVyIGltcG9ydCBjcmVhdGVfYW5kX3B1Ymxpc2hfZW1haWxfbm90aWZpY2F0aW9uX2Zvcl91c2VyCmZyb20gYXBwLmNvbnRyb2xsZXJzLnB1c2hfbm90aWZpY2F0aW9uX2NvbnRyb2xsZXIgaW1wb3J0IGNyZWF0ZV9hbmRfcHVibGlzaF9wdXNoX25vdGlmaWNhdGlvbl9mb3JfdXNlcgpmcm9tIGFwcC5jb250cm9sbGVycy5zZW5kZ3JpZF9jb250cm9sbGVyIGltcG9ydCBhZGRfcmVjaXBpZW50X3RvX3NlbmRncmlkX2NvbnRhY3RzX2FzeW5jCmZyb20gYXBwLmNvbnRyb2xsZXJzLnVzZXJfY29udHJvbGxlciBpbXBvcnQgc2VuZF9kaXNjb3JkX25vdGlmaWNhdGlvbl9mb3JfbmV3X3VzZXIKZnJvbSBhcHAuZGFvLm1hZ2ljX2xpbmtfZGFvIGltcG9ydCBkYW9fY3JlYXRlX21hZ2ljX2xpbmsKZnJvbSBhcHAuZGFvLnVzZXJfZGFvIGltcG9ydCAoCiAgICBkYW9fZ2V0X3VzZXJfYnlfaWQsIGRhb191cGRhdGVfdXNlcl9zdHJpcGVfY3VzdG9tZXJfYWNjb3VudCwKICAgIGRhb191cGRhdGVfdXNlcl9zdHJpcGVfbWFuYWdlZF9hY2NvdW50CikKZnJvbSBhcHAudXRpbHMuZGF0ZV91dGlscyBpbXBvcnQgKAogICAgZ2V0X2Zvcm1hdHRlZF9kYXRlX2NvbXBvbmVudHMsIGRheXNfYWZ0ZXJfbm93LAogICAgaW5fZGF5cwopCmZyb20gbW9kZWxzLmVtYWlsX25vdGlmaWNhdGlvbl90ZW1wbGF0ZV9tb2RlbCBpbXBvcnQgRW1haWxOb3RpZmljYXRpb25UZW1wbGF0ZQpmcm9tIG1vZGVscy5wdXNoX25vdGlmaWNhdGlvbl90ZW1wbGF0ZV9tb2RlbCBpbXBvcnQgUHVzaE5vdGlmaWNhdGlvblRlbXBsYXRlCg==</text>
+        <text encoding="base64">ICAgIHN1YnNjcmlwdGlvbiA9IGRhb19nZXRfc3Vic2NyaXB0aW9uX2J5X3NsdWcoU3Vic2NyaXB0aW9uLlNMVUdfU0NPT0RMRV9QUk9fU1RVREVOVFNfUEFSRU5UUykKICAgIAogICAgaWYgdXNlci5pc190dXRvcigpOgogICAgICAgIHN1YnNjcmlwdGlvbiA9IGRhb19nZXRfc3Vic2NyaXB0aW9uX2J5X3NsdWcoU3Vic2NyaXB0aW9uLlNMVUdfU0NPT0RMRV9QUk9fVFVUT1JTKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGRhb19hZGRfcmVzb3VyY2VfZG93bmxvYWQocmVzb3VyY2VfZmlsZS5yZXNvdXJjZSwgdXNlcikK</text>
+        <text encoding="base64">ICAgIG9wLmRyb3BfY29sdW1uKCdzdWJzY3JpcHRpb24nLCAncGxhbl9pZCcpCg==</text>
       </register>
-      <register name="&quot;" type="4">
-        <text>,</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIG9wLmRyb3BfY29sdW1uKCdzdWJzY3JpcHRpb24nLCAncGxhbl9pZCcpCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cgo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">ICAgIG9wLmFkZF9jb2x1bW4oJ3N1YnNjcmlwdGlvbicsIHNhLkNvbHVtbigncGxhbl9pZCcsIHNhLlN0cmluZygpLCBudWxsYWJsZT1UcnVlKSkK</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIGRhb19hZGRfcmVzb3VyY2VfZG93bmxvYWQocmVzb3VyY2VfZmlsZS5yZXNvdXJjZSwgdXNlcikK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cgo=</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">QHJlc291cmNlX2JsdWVwcmludC5yb3V0ZSgnL2xpbmsvPHV1aWQ6dWlkPicsIG1ldGhvZHM9WydHRVQnXSkKQGp3dF9yZXF1aXJlZF9hY3RpdmVfdXNlcigpCmRlZiBnZXRfcmVzb3VyY2VfbGluayh1aWQpOgogICAgdXNlciA9IGRhb19nZXRfdXNlcl9ieV9pZChjdXJyZW50X2lkZW50aXR5LmlkKQogICAgcmVzb3VyY2UgPSBkYW9fZ2V0X3Jlc291cmNlX2J5X2lkKHVpZCkKICAgIGRhb19hZGRfcmVzb3VyY2VfdmlldyhyZXNvdXJjZSwgdXNlcikKICAgIGlmIHJlc291cmNlLmZpbGVzOgogICAgICAgIHVybCA9IGF3c19jbGllbnQuY3JlYXRlX2Nsb3VkZnJvbnRfc2lnbmVkX3VybCgKICAgICAgICAgICAgYnVja2V0X25hbWU9Y3VycmVudF9hcHAuY29uZmlnWydTM19SRVNPVVJDRVNfQlVDS0VUJ10sCiAgICAgICAgICAgIHN1YmZvbGRlcj0ndXBsb2FkcycsCiAgICAgICAgICAgIGZpbGVuYW1lPXJlc291cmNlLmZpbGVzWzBdLmZpbGVuYW1lLAogICAgICAgICAgICBleHBpcmVzX2luX3NlY29uZHM9MjAKICAgICAgICApCgogICAgICAgIGNyZWF0ZV9hbmRfcHVibGlzaF9hcHBfZXZlbnRfd2l0aF9zY2hlZHVsZSgKICAgICAgICAgICAgZXZlbnRfa2V5PUV2ZW50VHlwZXMuUkVTT1VSQ0VfVklFV0VELAogICAgICAgICAgICB0cmlnZ2VyZWRfYnk9dXNlciwKICAgICAgICAgICAgcHVibGlzaF9ub3c9VHJ1ZQogICAgICAgICkKCiAgICAgICAgcmV0dXJuIGpzb25pZnkodXJsPXVybCkK</text>
       </register>
+      <register name=":" type="4">
+        <text>x</text>
+      </register>
       <register name="-" type="4">
-        <text>,</text>
+        <text>.customer_id,</text>
+      </register>
+      <register name="/" type="4">
+        <text>staging_data</text>
       </register>
     </registers>
     <search>
-      <last-dir>0</last-dir>
+      <last-search>staging_data</last-search>
+      <last-offset />
+      <last-pattern>staging_data</last-pattern>
+      <last-replace>subscription</last-replace>
+      <last-substitute>account</last-substitute>
+      <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
-    <history />
+    <history>
+      <history-search>
+        <entry>account</entry>
+        <entry>Stripe</entry>
+        <entry>subscription</entry>
+        <entry>staging_data</entry>
+      </history-search>
+      <history-cmd>
+        <entry>s/account/subscription/gc</entry>
+        <entry>x</entry>
+      </history-cmd>
+    </history>
     <shortcut-conflicts />
   </component>
 </application>
