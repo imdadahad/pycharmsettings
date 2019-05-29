@@ -112,12 +112,12 @@
         <mark key="." line="141" column="38" />
         <mark key="^" line="141" column="38" />
       </file>
-      <file name="/projects/scoodle-api/app/dao/user_subscription_dao.py" timestamp="1559143857578">
+      <file name="/projects/scoodle-api/app/dao/user_subscription_dao.py" timestamp="1559149925149">
         <mark key="'" line="12" column="18" />
-        <mark key="[" line="12" column="51" />
-        <mark key="]" line="12" column="52" />
-        <mark key="." line="12" column="52" />
-        <mark key="^" line="12" column="52" />
+        <mark key="[" line="50" column="4" />
+        <mark key="]" line="50" column="39" />
+        <mark key="^" line="57" column="0" />
+        <mark key="." line="57" column="0" />
       </file>
       <file name="/projects/scoodle-api/app/clients/stripe_client.py" timestamp="1559129686721">
         <mark key="'" line="72" column="8" />
@@ -126,11 +126,18 @@
         <mark key="." line="69" column="13" />
         <mark key="^" line="69" column="13" />
       </file>
-      <file name="/projects/scoodle-api/app/controllers/stripe_controller.py" timestamp="1559144359846">
-        <mark key="[" line="57" column="32" />
-        <mark key="]" line="57" column="32" />
-        <mark key="." line="57" column="32" />
-        <mark key="^" line="57" column="32" />
+      <file name="/projects/scoodle-api/app/utils/date_utils.py" timestamp="1559149826059">
+        <mark key="[" line="197" column="4" />
+        <mark key="]" line="197" column="41" />
+        <mark key="." line="198" column="19" />
+        <mark key="^" line="198" column="19" />
+      </file>
+      <file name="/projects/scoodle-api/app/controllers/stripe_controller.py" timestamp="1559155470713">
+        <mark key="'" line="62" column="70" />
+        <mark key="[" line="49" column="17" />
+        <mark key="]" line="51" column="47" />
+        <mark key="." line="51" column="47" />
+        <mark key="^" line="51" column="47" />
       </file>
       <file name="/projects/scoodle-api/app/dao/user_card_dao.py" timestamp="1559144058707">
         <mark key="[" line="90" column="36" />
@@ -170,46 +177,47 @@
       <jump line="42" column="4" filename="/projects/scoodle-api/models/email_notification_template_model.py" />
       <jump line="12" column="18" filename="/projects/scoodle-api/app/dao/user_subscription_dao.py" />
       <jump line="85" column="80" filename="/projects/scoodle-api/app/controllers/recurring_booking_controller.py" />
+      <jump line="57" column="70" filename="/projects/scoodle-api/app/controllers/stripe_controller.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>.id</text>
+        <text>['data'][0]['id']</text>
       </register>
       <register name="-" type="4">
-        <text>.id</text>
+        <text>['data'][0]['id']</text>
       </register>
       <register name="/" type="4">
         <text>staging_data</text>
       </register>
       <register name="0" type="4">
-        <text>dao_get_user_default_card(</text>
+        <text>INVOICE_PAYMENT_SUCCEEDED =</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHVzZXJfY2FyZCA9IGRiLnNlc3Npb24ucXVlcnkoCiAgICAgICAgVXNlckNhcmQKICAgICkuZmlsdGVyX2J5KAogICAgICAgIHVzZXJfaWQ9dXNlcl9pZCwKICAgICAgICBpc19kZWZhdWx0PVRydWUsCiAgICApLm9uZSgpCg==</text>
+        <text encoding="base64">Q1VTVE9NRVJfU1VCU0NSSVBUSU9OX0NSRUFURUQgPSAnY3VzdG9tZXIuc3Vic2NyaXB0aW9uLmNyZWF0ZWQnCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIHByaW50KGYnezEwMDA6LjJmfScpCg==</text>
-      </register>
-      <register name="7" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIGRhdGVfc3VmZml4ID0gZGF5X2VuZGluZ3MuZ2V0KGRhdGUuZGF5LCAndGgnKQo=</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIHVzZXJfY2FyZCA9IGRiLnNlc3Npb24ucXVlcnkoCiAgICAgICAgVXNlckNhcmQKICAgICkuZmlsdGVyX2J5KAogICAgICAgIHVzZXJfaWQ9dXNlcl9pZCwKICAgICAgICBpc19kZWZhdWx0PVRydWUsCiAgICApLm9uZSgpCg==</text>
+      </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBVc2VyU3Vic2NyaXB0aW9uLnN1YnNjcmlwdGlvbl9pZCA9PSBzdWJzY3JpcHRpb24uaWQsZGQK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICkuam9pbgogICAgU3Vic2NyaXB0aW9uCiAgICAgICAgVXNlclN1YnNjcmlwdGlvbi51c2VyX2lkID09IHVzZXIuaWQsCg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name=":" type="4">
         <text>x</text>
