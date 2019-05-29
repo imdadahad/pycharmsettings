@@ -4,11 +4,27 @@
     <globalmarks />
     <filemarks>
       <file name="/projects/scoodle-api/app/api/user/user_bank_account_rest.py" timestamp="1559124723643" />
+      <file name="/projects/scoodle-api/models/user_subscription_model.py" timestamp="1559127242971">
+        <mark key="'" line="2" column="0" />
+      </file>
+      <file name="/projects/scoodle-api/migrations/versions/202.py" timestamp="1559128333221">
+        <mark key="[" line="28" column="30" />
+        <mark key="]" line="34" column="15" />
+        <mark key="^" line="34" column="15" />
+        <mark key="." line="34" column="15" />
+      </file>
       <file name="/projects/scoodle-api/app/api/resource/resource_rest.py" timestamp="1559126142326">
         <mark key="'" line="111" column="0" />
         <mark key="[" line="111" column="0" />
         <mark key="]" line="111" column="0" />
         <mark key="." line="111" column="0" />
+      </file>
+      <file name="/projects/scoodle-api/app/api/user/user_subscription_rest.py" timestamp="1559127165323">
+        <mark key="'" line="28" column="3" />
+        <mark key="[" line="25" column="29" />
+        <mark key="]" line="21" column="0" />
+        <mark key="^" line="21" column="0" />
+        <mark key="." line="21" column="0" />
       </file>
       <file name="/projects/scoodle-api/app/controllers/account_event_controller.py" timestamp="1559124888582">
         <mark key="'" line="229" column="4" />
@@ -24,6 +40,9 @@
         <mark key="^" line="97" column="39" />
         <mark key="." line="116" column="8" />
       </file>
+      <file name="/projects/scoodle-api/models/subscription_model.py" timestamp="1559128229595">
+        <mark key="'" line="0" column="0" />
+      </file>
     </filemarks>
     <jumps>
       <jump line="29" column="0" filename="/projects/scoodle-api/app/controllers/account_event_controller.py" />
@@ -31,6 +50,9 @@
       <jump line="24" column="4" filename="/projects/scoodle-api/app/controllers/resource_event_controller.py" />
       <jump line="116" column="8" filename="/projects/scoodle-api/app/controllers/resource_event_controller.py" />
       <jump line="112" column="0" filename="/projects/scoodle-api/app/api/resource/resource_rest.py" />
+      <jump line="28" column="3" filename="/projects/scoodle-api/app/api/user/user_subscription_rest.py" />
+      <jump line="2" column="0" filename="/projects/scoodle-api/models/user_subscription_model.py" />
+      <jump line="0" column="0" filename="/projects/scoodle-api/models/subscription_model.py" />
     </jumps>
     <registers>
       <register name="0" type="2">
@@ -40,7 +62,7 @@
         <text encoding="base64">ICAgIGRhb19hZGRfcmVzb3VyY2VfZG93bmxvYWQocmVzb3VyY2VfZmlsZS5yZXNvdXJjZSwgdXNlcikK</text>
       </register>
       <register name="&quot;" type="4">
-        <text>resource_file.</text>
+        <text>,</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">Cgo=</text>
@@ -49,7 +71,7 @@
         <text encoding="base64">QHJlc291cmNlX2JsdWVwcmludC5yb3V0ZSgnL2xpbmsvPHV1aWQ6dWlkPicsIG1ldGhvZHM9WydHRVQnXSkKQGp3dF9yZXF1aXJlZF9hY3RpdmVfdXNlcigpCmRlZiBnZXRfcmVzb3VyY2VfbGluayh1aWQpOgogICAgdXNlciA9IGRhb19nZXRfdXNlcl9ieV9pZChjdXJyZW50X2lkZW50aXR5LmlkKQogICAgcmVzb3VyY2UgPSBkYW9fZ2V0X3Jlc291cmNlX2J5X2lkKHVpZCkKICAgIGRhb19hZGRfcmVzb3VyY2VfdmlldyhyZXNvdXJjZSwgdXNlcikKICAgIGlmIHJlc291cmNlLmZpbGVzOgogICAgICAgIHVybCA9IGF3c19jbGllbnQuY3JlYXRlX2Nsb3VkZnJvbnRfc2lnbmVkX3VybCgKICAgICAgICAgICAgYnVja2V0X25hbWU9Y3VycmVudF9hcHAuY29uZmlnWydTM19SRVNPVVJDRVNfQlVDS0VUJ10sCiAgICAgICAgICAgIHN1YmZvbGRlcj0ndXBsb2FkcycsCiAgICAgICAgICAgIGZpbGVuYW1lPXJlc291cmNlLmZpbGVzWzBdLmZpbGVuYW1lLAogICAgICAgICAgICBleHBpcmVzX2luX3NlY29uZHM9MjAKICAgICAgICApCgogICAgICAgIGNyZWF0ZV9hbmRfcHVibGlzaF9hcHBfZXZlbnRfd2l0aF9zY2hlZHVsZSgKICAgICAgICAgICAgZXZlbnRfa2V5PUV2ZW50VHlwZXMuUkVTT1VSQ0VfVklFV0VELAogICAgICAgICAgICB0cmlnZ2VyZWRfYnk9dXNlciwKICAgICAgICAgICAgcHVibGlzaF9ub3c9VHJ1ZQogICAgICAgICkKCiAgICAgICAgcmV0dXJuIGpzb25pZnkodXJsPXVybCkK</text>
       </register>
       <register name="-" type="4">
-        <text>resource_file.</text>
+        <text>,</text>
       </register>
     </registers>
     <search>
