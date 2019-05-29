@@ -3,8 +3,8 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/projects/scoodle-api/models/email_notification_template_model.py" timestamp="1559130041317">
-        <mark key="'" line="421" column="40" />
+      <file name="/projects/scoodle-api/models/email_notification_template_model.py" timestamp="1559131545843">
+        <mark key="'" line="1" column="0" />
         <mark key="[" line="40" column="81" />
         <mark key="]" line="42" column="81" />
         <mark key="^" line="42" column="81" />
@@ -18,6 +18,11 @@
         <mark key="]" line="34" column="15" />
         <mark key="^" line="34" column="15" />
         <mark key="." line="34" column="15" />
+      </file>
+      <file name="/projects/scoodle-api/app/clients/sendgrid_client.py" timestamp="1559130934039">
+        <mark key="[" line="23" column="0" />
+        <mark key="]" line="23" column="0" />
+        <mark key="." line="23" column="0" />
       </file>
       <file name="/projects/scoodle-api/migrations/versions/201.py" timestamp="1559130222476">
         <mark key="[" line="22" column="0" />
@@ -83,6 +88,12 @@
         <mark key="^" line="21" column="0" />
         <mark key="." line="21" column="0" />
       </file>
+      <file name="/projects/scoodle-api/app/api/user/user_rest.py" timestamp="1559131515255">
+        <mark key="[" line="1417" column="24" />
+        <mark key="]" line="1418" column="0" />
+        <mark key="^" line="1418" column="0" />
+        <mark key="." line="1418" column="0" />
+      </file>
       <file name="/projects/scoodle-api/scripts/start_app.sh" timestamp="1559130732205" />
     </filemarks>
     <jumps>
@@ -96,43 +107,48 @@
       <jump line="0" column="0" filename="/projects/scoodle-api/models/subscription_model.py" />
       <jump line="72" column="8" filename="/projects/scoodle-api/app/clients/stripe_client.py" />
       <jump line="419" column="40" filename="/projects/scoodle-api/models/email_notification_template_model.py" />
+      <jump line="34" column="0" filename="/projects/scoodle-api/models/email_notification_template_model.py" />
+      <jump line="1" column="0" filename="/projects/scoodle-api/models/email_notification_template_model.py" />
     </jumps>
     <registers>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIHN1YnNjcmlwdGlvbiA9IGRhb19nZXRfc3Vic2NyaXB0aW9uX2J5X3NsdWcoU3Vic2NyaXB0aW9uLlNMVUdfU0NPT0RMRV9QUk9fU1RVREVOVFNfUEFSRU5UUykKICAgIAogICAgaWYgdXNlci5pc190dXRvcigpOgogICAgICAgIHN1YnNjcmlwdGlvbiA9IGRhb19nZXRfc3Vic2NyaXB0aW9uX2J5X3NsdWcoU3Vic2NyaXB0aW9uLlNMVUdfU0NPT0RMRV9QUk9fVFVUT1JTKQo=</text>
-      </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgIG9wLmRyb3BfY29sdW1uKCdzdWJzY3JpcHRpb24nLCAncGxhbl9pZCcpCg==</text>
-      </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIG9wLmRyb3BfY29sdW1uKCdzdWJzY3JpcHRpb24nLCAncGxhbl9pZCcpCg==</text>
-      </register>
-      <register name="2" type="2">
-        <text encoding="base64">ICAgIAo=</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIG9wLmFkZF9jb2x1bW4oJ3N1YnNjcmlwdGlvbicsIHNhLkNvbHVtbigncGxhbl9pZCcsIHNhLlN0cmluZygpLCBudWxsYWJsZT1UcnVlKSkK</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIGRhb19hZGRfcmVzb3VyY2VfZG93bmxvYWQocmVzb3VyY2VfZmlsZS5yZXNvdXJjZSwgdXNlcikK</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">Cgo=</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">QHJlc291cmNlX2JsdWVwcmludC5yb3V0ZSgnL2xpbmsvPHV1aWQ6dWlkPicsIG1ldGhvZHM9WydHRVQnXSkKQGp3dF9yZXF1aXJlZF9hY3RpdmVfdXNlcigpCmRlZiBnZXRfcmVzb3VyY2VfbGluayh1aWQpOgogICAgdXNlciA9IGRhb19nZXRfdXNlcl9ieV9pZChjdXJyZW50X2lkZW50aXR5LmlkKQogICAgcmVzb3VyY2UgPSBkYW9fZ2V0X3Jlc291cmNlX2J5X2lkKHVpZCkKICAgIGRhb19hZGRfcmVzb3VyY2VfdmlldyhyZXNvdXJjZSwgdXNlcikKICAgIGlmIHJlc291cmNlLmZpbGVzOgogICAgICAgIHVybCA9IGF3c19jbGllbnQuY3JlYXRlX2Nsb3VkZnJvbnRfc2lnbmVkX3VybCgKICAgICAgICAgICAgYnVja2V0X25hbWU9Y3VycmVudF9hcHAuY29uZmlnWydTM19SRVNPVVJDRVNfQlVDS0VUJ10sCiAgICAgICAgICAgIHN1YmZvbGRlcj0ndXBsb2FkcycsCiAgICAgICAgICAgIGZpbGVuYW1lPXJlc291cmNlLmZpbGVzWzBdLmZpbGVuYW1lLAogICAgICAgICAgICBleHBpcmVzX2luX3NlY29uZHM9MjAKICAgICAgICApCgogICAgICAgIGNyZWF0ZV9hbmRfcHVibGlzaF9hcHBfZXZlbnRfd2l0aF9zY2hlZHVsZSgKICAgICAgICAgICAgZXZlbnRfa2V5PUV2ZW50VHlwZXMuUkVTT1VSQ0VfVklFV0VELAogICAgICAgICAgICB0cmlnZ2VyZWRfYnk9dXNlciwKICAgICAgICAgICAgcHVibGlzaF9ub3c9VHJ1ZQogICAgICAgICkKCiAgICAgICAgcmV0dXJuIGpzb25pZnkodXJsPXVybCkK</text>
-      </register>
-      <register name=":" type="4">
-        <text>x</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICJuYW1lIjogdG9fbmFtZQo=</text>
       </register>
       <register name="-" type="4">
-        <text>.customer_id,</text>
+        <text>email</text>
       </register>
       <register name="/" type="4">
         <text>staging_data</text>
+      </register>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgdG9fZW1haWw9ZW1haWwsCg==</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgICAgICJuYW1lIjogdG9fbmFtZQo=</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIG9wLmRyb3BfY29sdW1uKCdzdWJzY3JpcHRpb24nLCAncGxhbl9pZCcpCg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIG9wLmFkZF9jb2x1bW4oJ3N1YnNjcmlwdGlvbicsIHNhLkNvbHVtbigncGxhbl9pZCcsIHNhLlN0cmluZygpLCBudWxsYWJsZT1UcnVlKSkK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIGRhb19hZGRfcmVzb3VyY2VfZG93bmxvYWQocmVzb3VyY2VfZmlsZS5yZXNvdXJjZSwgdXNlcikK</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">Cgo=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">QHJlc291cmNlX2JsdWVwcmludC5yb3V0ZSgnL2xpbmsvPHV1aWQ6dWlkPicsIG1ldGhvZHM9WydHRVQnXSkKQGp3dF9yZXF1aXJlZF9hY3RpdmVfdXNlcigpCmRlZiBnZXRfcmVzb3VyY2VfbGluayh1aWQpOgogICAgdXNlciA9IGRhb19nZXRfdXNlcl9ieV9pZChjdXJyZW50X2lkZW50aXR5LmlkKQogICAgcmVzb3VyY2UgPSBkYW9fZ2V0X3Jlc291cmNlX2J5X2lkKHVpZCkKICAgIGRhb19hZGRfcmVzb3VyY2VfdmlldyhyZXNvdXJjZSwgdXNlcikKICAgIGlmIHJlc291cmNlLmZpbGVzOgogICAgICAgIHVybCA9IGF3c19jbGllbnQuY3JlYXRlX2Nsb3VkZnJvbnRfc2lnbmVkX3VybCgKICAgICAgICAgICAgYnVja2V0X25hbWU9Y3VycmVudF9hcHAuY29uZmlnWydTM19SRVNPVVJDRVNfQlVDS0VUJ10sCiAgICAgICAgICAgIHN1YmZvbGRlcj0ndXBsb2FkcycsCiAgICAgICAgICAgIGZpbGVuYW1lPXJlc291cmNlLmZpbGVzWzBdLmZpbGVuYW1lLAogICAgICAgICAgICBleHBpcmVzX2luX3NlY29uZHM9MjAKICAgICAgICApCgogICAgICAgIGNyZWF0ZV9hbmRfcHVibGlzaF9hcHBfZXZlbnRfd2l0aF9zY2hlZHVsZSgKICAgICAgICAgICAgZXZlbnRfa2V5PUV2ZW50VHlwZXMuUkVTT1VSQ0VfVklFV0VELAogICAgICAgICAgICB0cmlnZ2VyZWRfYnk9dXNlciwKICAgICAgICAgICAgcHVibGlzaF9ub3c9VHJ1ZQogICAgICAgICkKCiAgICAgICAgcmV0dXJuIGpzb25pZnkodXJsPXVybCkK</text>
+      </register>
+      <register name=":" type="4">
+        <text>q!</text>
       </register>
     </registers>
     <search>
@@ -154,6 +170,7 @@
       <history-cmd>
         <entry>s/account/subscription/gc</entry>
         <entry>x</entry>
+        <entry>q!</entry>
       </history-cmd>
     </history>
     <shortcut-conflicts />
