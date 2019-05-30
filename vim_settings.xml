@@ -27,6 +27,12 @@
         <mark key="." line="28" column="16" />
         <mark key="^" line="28" column="16" />
       </file>
+      <file name="/projects/scoodle-api/scripts/celery-worker.service" timestamp="1559235402381">
+        <mark key="[" line="12" column="184" />
+        <mark key="]" line="12" column="183" />
+        <mark key="^" line="12" column="183" />
+        <mark key="." line="12" column="183" />
+      </file>
       <file name="/projects/scoodle-api/app/api/answer/answer_rest.py" timestamp="1559228454212">
         <mark key="[" line="59" column="0" />
         <mark key="]" line="59" column="0" />
@@ -38,6 +44,12 @@
         <mark key="]" line="20" column="0" />
         <mark key="^" line="10" column="14" />
         <mark key="." line="20" column="0" />
+      </file>
+      <file name="/projects/scoodle-api/appspec.yml" timestamp="1559235773580">
+        <mark key="[" line="11" column="12" />
+        <mark key="]" line="11" column="23" />
+        <mark key="." line="11" column="23" />
+        <mark key="^" line="11" column="23" />
       </file>
       <file name="/projects/scoodle-api/app/api/user/user_rest.py" timestamp="1559131515255">
         <mark key="[" line="1417" column="24" />
@@ -88,6 +100,13 @@
         <mark key="]" line="8" column="0" />
         <mark key="." line="8" column="0" />
       </file>
+      <file name="/projects/scoodle-api/conf/systemd/celery-worker.service" timestamp="1559237264881">
+        <mark key="'" line="3" column="0" />
+        <mark key="[" line="12" column="24" />
+        <mark key="]" line="12" column="34" />
+        <mark key="." line="14" column="0" />
+        <mark key="^" line="13" column="12" />
+      </file>
       <file name="/projects/scoodle-api/app/serializers.py" timestamp="1559218787643">
         <mark key="[" line="226" column="33" />
         <mark key="]" line="229" column="7" />
@@ -130,6 +149,12 @@
       <file name="/projects/scoodle-api/app/dao/user_contact_number_dao.py" timestamp="1559216861521">
         <mark key="[" line="20" column="0" />
         <mark key="]" line="26" column="23" />
+      </file>
+      <file name="/projects/scoodle-api/scripts/pull_creds.sh" timestamp="1559237162929">
+        <mark key="[" line="11" column="55" />
+        <mark key="]" line="11" column="55" />
+        <mark key="^" line="11" column="55" />
+        <mark key="." line="11" column="55" />
       </file>
       <file name="/projects/scoodle-api/migrations/versions/202.py" timestamp="1559128333221">
         <mark key="[" line="28" column="30" />
@@ -237,58 +262,60 @@
       <jump line="186" column="29" filename="/projects/scoodle-api/app/controllers/question_controller.py" />
       <jump line="111" column="33" filename="/projects/scoodle-api/app/controllers/question_controller.py" />
       <jump line="25" column="14" filename="/projects/scoodle-api/app/controllers/question_controller.py" />
+      <jump line="12" column="180" filename="/projects/scoodle-api/conf/systemd/celery-worker.service" />
+      <jump line="3" column="0" filename="/projects/scoodle-api/conf/systemd/celery-worker.service" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgImlubmVyX2hpdHMiOiB7fQo=</text>
+      <register name="&quot;" type="4">
+        <text>CELERY_BIN}</text>
       </register>
       <register name="-" type="4">
-        <text>req_json['question_id']</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDwoXD4=</text>
+        <text>-f ${CELERYD_LOG_FILE}</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">CgpkZWYgZGFvX2FkZF9hbnN3ZXIoY29udGVudCwgaW1hZ2UsIHF1ZXN0aW9uX2lkLCBhdXRob3JfaWQpOgogICAgYW5zd2VyID0gQW5zd2VyKAogICAgICAgIGNvbnRlbnQ9Y29udGVudCwKICAgICAgICBpbWFnZT1pbWFnZSwKICAgICAgICBxdWVzdGlvbl9pZD1xdWVzdGlvbl9pZCwKICAgICAgICBhdXRob3JfaWQ9YXV0aG9yX2lkCiAgICApCgogICAgZGIuc2Vzc2lvbi5hZGQoYW5zd2VyKQogICAgZGIuc2Vzc2lvbi5jb21taXQoKQoKICAgIHJldHVybiBhbnN3ZXIK</text>
+      <register name="0" type="4">
+        <text>CELERY_BIN}</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgImlubmVyX2hpdHMiOiB7fQo=</text>
+        <text encoding="base64">RXhlY1N0b3A9L2hvbWUvc2Nvb2RsZS1jb3JlYXBpL3ZlbnYvYmluL2NlbGVyeSAke0NFTEVSWURfTVVMVEl9IHN0b3B3YWl0ICR7Q0VMRVJZRF9OT0RFU30gLUEgJHtDRUxFUllfQVBQfSAtLWxvZ2xldmVsPSR7Q0VMRVJZRF9MT0dfTEVWRUx9IC1RIHB1c2gsZW1haWwsc21zLHNjaGVkdWxlZCxzbGFjayxtaXNjLGRpc2NvcmQgLWYgJHtDRUxFUllEX0xPR19GSUxFfQo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICJpbm5lcl9oaXRzIjoge30KICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ZWNobyAiRU5WSVJPTk1FTlQ9JGVudmlyb25tZW50IiA+PiAvaG9tZS9zY29vZGxlLWNvcmVhcGkvZW52aXJvbm1lbnQK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICJpbm5lcl9oaXRzIjoge30KICAgICAgICAgICAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgImlubmVyX2hpdHMiOiB7fQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAibmVzdGVkIjogewogICAgICAgICAgICAgICAgICAgICAgICAicGF0aCI6ICJhbnN3ZXJzIiwKICAgICAgICAgICAgICAgICAgICAgICAgInF1ZXJ5Ijogewo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICJpbm5lcl9oaXRzIjoge30KICAgICAgICAgICAgfQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAibmVzdGVkIjogewogICAgICAgICAgICAgICAgICAgICAgICAicGF0aCI6ICJhbnN3ZXJzIiwKICAgICAgICAgICAgICAgICAgICAgICAgInF1ZXJ5IjogewogICAgICAgICAgICAgICAgICAgICAgICAgICAgIm5lc3RlZCI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAicGF0aCI6ICJhbnN3ZXJzLnNhdmVzIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAicXVlcnkiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJtYXRjaCI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJhbnN3ZXJzLnNhdmVzLmFyY2hpdmVkIjogRmFsc2UKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICAgICAgImlubmVyX2hpdHMiOiB7fQogICAgICAgICAgICAgICAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICJpbm5lcl9oaXRzIjoge30KICAgICAgICAgICAgICAgIH0K</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAibmVzdGVkIjogewogICAgICAgICAgICAgICAgICAgICAgICAicGF0aCI6ICJhbnN3ZXJzIiwKICAgICAgICAgICAgICAgICAgICAgICAgInF1ZXJ5Ijogewo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHF1ZXN0aW9uID0gYW5zd2VyLnF1ZXN0aW9uCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAibmVzdGVkIjogewogICAgICAgICAgICAgICAgICAgICAgICAicGF0aCI6ICJhbnN3ZXJzIiwKICAgICAgICAgICAgICAgICAgICAgICAgInF1ZXJ5IjogewogICAgICAgICAgICAgICAgICAgICAgICAgICAgIm5lc3RlZCI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAicGF0aCI6ICJhbnN3ZXJzLnNhdmVzIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAicXVlcnkiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJtYXRjaCI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJhbnN3ZXJzLnNhdmVzLmFyY2hpdmVkIjogRmFsc2UKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICAgICAgImlubmVyX2hpdHMiOiB7fQogICAgICAgICAgICAgICAgICAgIH0K</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBxdWVzdGlvbl9pZD1xdWVzdGlvbl9pZCwK</text>
+        <text encoding="base64">ICAgIHF1ZXN0aW9uID0gYW5zd2VyLnF1ZXN0aW9uCg==</text>
       </register>
       <register name=":" type="4">
         <text>x</text>
       </register>
     </registers>
     <search>
-      <last-search encoding="base64">XDwoXD4=</last-search>
+      <last-search>-f ${CELERYD_LOG_FILE}</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDwoXD4=</last-pattern>
+      <last-pattern>-f ${CELERYD_LOG_FILE}</last-pattern>
       <last-replace>subscription</last-replace>
       <last-substitute>account</last-substitute>
-      <last-dir>-1</last-dir>
+      <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
@@ -301,6 +328,7 @@
         <entry>answers.author.id</entry>
         <entry>exclude_ids</entry>
         <entry encoding="base64">XDwoXD4=</entry>
+        <entry>-f ${CELERYD_LOG_FILE}</entry>
       </history-search>
       <history-cmd>
         <entry>s/account/subscription/gc</entry>
