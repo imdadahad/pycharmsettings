@@ -9,11 +9,12 @@
         <mark key="^" line="266" column="0" />
         <mark key="." line="267" column="0" />
       </file>
-      <file name="/projects/scoodle-api/models/model_listeners.py" timestamp="1559226166029">
-        <mark key="[" line="10" column="17" />
-        <mark key="]" line="10" column="24" />
-        <mark key="^" line="10" column="24" />
-        <mark key="." line="10" column="24" />
+      <file name="/projects/scoodle-api/models/model_listeners.py" timestamp="1559228022968">
+        <mark key="a" line="14" column="30" />
+        <mark key="[" line="6" column="42" />
+        <mark key="]" line="4" column="46" />
+        <mark key="^" line="4" column="46" />
+        <mark key="." line="4" column="46" />
       </file>
       <file name="/projects/scoodle-api/app/__init__.py" timestamp="1559224458269">
         <mark key="[" line="28" column="0" />
@@ -26,14 +27,11 @@
         <mark key="." line="28" column="16" />
         <mark key="^" line="28" column="16" />
       </file>
-      <file name="/a.dummy" timestamp="1559215300734">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="/projects/scoodle-api/app/api/answer/answer_rest.py" timestamp="1559222068957">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="133" column="32" />
-        <mark key="." line="133" column="32" />
-        <mark key="^" line="133" column="32" />
+      <file name="/projects/scoodle-api/app/api/answer/answer_rest.py" timestamp="1559228454212">
+        <mark key="[" line="59" column="0" />
+        <mark key="]" line="59" column="0" />
+        <mark key="^" line="41" column="19" />
+        <mark key="." line="59" column="0" />
       </file>
       <file name="/projects/scoodle-api/migrations/versions/211.py" timestamp="1559167642366">
         <mark key="[" line="20" column="0" />
@@ -52,6 +50,11 @@
         <mark key="]" line="15" column="52" />
         <mark key="." line="15" column="52" />
       </file>
+      <file name="/projects/scoodle-api/app/api/feed/feed_rest.py" timestamp="1559227857178">
+        <mark key="[" line="107" column="55" />
+        <mark key="]" line="107" column="56" />
+        <mark key="." line="107" column="56" />
+      </file>
       <file name="/projects/scoodle-api/migrations/versions/055.py" timestamp="1559215408441">
         <mark key="[" line="15" column="66" />
         <mark key="]" line="15" column="96" />
@@ -62,12 +65,12 @@
         <mark key="]" line="456" column="0" />
         <mark key="." line="456" column="0" />
       </file>
-      <file name="/projects/scoodle-api/app/controllers/question_controller.py" timestamp="1559225970736">
-        <mark key="'" line="9" column="47" />
-        <mark key="[" line="292" column="4" />
-        <mark key="]" line="292" column="29" />
-        <mark key="." line="295" column="8" />
-        <mark key="^" line="295" column="8" />
+      <file name="/projects/scoodle-api/app/controllers/question_controller.py" timestamp="1559227616526">
+        <mark key="'" line="25" column="14" />
+        <mark key="[" line="38" column="24" />
+        <mark key="]" line="38" column="28" />
+        <mark key="." line="38" column="28" />
+        <mark key="^" line="38" column="28" />
       </file>
       <file name="/projects/scoodle-api/app/dao/user_subscription_dao.py" timestamp="1559213302380">
         <mark key="'" line="25" column="39" />
@@ -79,6 +82,11 @@
       <file name="/projects/scoodle-api/app/dao/user_dao.py" timestamp="1559225407873">
         <mark key="[" line="78" column="4" />
         <mark key="]" line="78" column="19" />
+      </file>
+      <file name="/projects/scoodle-api/tests/app/answer/test_answer_rest.py" timestamp="1559228208306">
+        <mark key="[" line="8" column="0" />
+        <mark key="]" line="8" column="0" />
+        <mark key="." line="8" column="0" />
       </file>
       <file name="/projects/scoodle-api/app/serializers.py" timestamp="1559218787643">
         <mark key="[" line="226" column="33" />
@@ -99,7 +107,7 @@
         <mark key="." line="9" column="21" />
         <mark key="^" line="9" column="21" />
       </file>
-      <file name="/projects/scoodle-api/app/api/tutor/tutor_rest.py" timestamp="1559225546473">
+      <file name="/projects/scoodle-api/app/api/tutor/tutor_rest.py" timestamp="1559227818732">
         <mark key="[" line="107" column="0" />
         <mark key="]" line="107" column="0" />
         <mark key="." line="107" column="0" />
@@ -113,9 +121,11 @@
       <file name="/projects/scoodle-api/models/question_model.py" timestamp="1559223434880">
         <mark key="'" line="14" column="0" />
       </file>
-      <file name="/projects/scoodle-api/app/dao/answer_dao.py" timestamp="1559217011415">
-        <mark key="[" line="73" column="0" />
-        <mark key="]" line="92" column="23" />
+      <file name="/projects/scoodle-api/app/dao/answer_dao.py" timestamp="1559228353719">
+        <mark key="[" line="40" column="8" />
+        <mark key="]" line="40" column="25" />
+        <mark key="." line="40" column="25" />
+        <mark key="^" line="40" column="25" />
       </file>
       <file name="/projects/scoodle-api/app/dao/user_contact_number_dao.py" timestamp="1559216861521">
         <mark key="[" line="20" column="0" />
@@ -132,10 +142,11 @@
         <mark key="]" line="23" column="0" />
         <mark key="." line="23" column="0" />
       </file>
-      <file name="/projects/scoodle-api/app/api/home/home_rest.py" timestamp="1559225119942">
-        <mark key="[" line="19" column="0" />
-        <mark key="]" line="19" column="0" />
-        <mark key="." line="19" column="0" />
+      <file name="/projects/scoodle-api/app/api/home/home_rest.py" timestamp="1559227794004">
+        <mark key="[" line="127" column="21" />
+        <mark key="]" line="128" column="33" />
+        <mark key="." line="128" column="33" />
+        <mark key="^" line="128" column="33" />
       </file>
       <file name="/projects/scoodle-api/app/utils/app_utils.py" timestamp="1559139106350">
         <mark key="[" line="164" column="60" />
@@ -147,6 +158,11 @@
         <mark key="[" line="541" column="0" />
         <mark key="]" line="541" column="0" />
         <mark key="." line="541" column="0" />
+      </file>
+      <file name="/projects/scoodle-api/app/controllers/question_event_controller.py" timestamp="1559228041793">
+        <mark key="[" line="52" column="0" />
+        <mark key="]" line="52" column="0" />
+        <mark key="." line="52" column="0" />
       </file>
       <file name="/projects/scoodle-api/migrations/versions/212.py" timestamp="1559215443684">
         <mark key="[" line="15" column="94" />
@@ -173,9 +189,9 @@
         <mark key="^" line="12" column="25" />
       </file>
       <file name="/projects/scoodle-api/app/commands.py" timestamp="1559225634000">
-        <mark key="[" line="379" column="0" />
-        <mark key="]" line="384" column="9" />
-        <mark key="." line="284" column="20" />
+        <mark key="[" line="376" column="0" />
+        <mark key="]" line="381" column="9" />
+        <mark key="." line="281" column="20" />
       </file>
       <file name="/projects/scoodle-api/models/user_card_model.py" timestamp="1559144315979">
         <mark key="[" line="49" column="34" />
@@ -216,58 +232,63 @@
       <jump line="292" column="22" filename="/projects/scoodle-api/app/controllers/question_controller.py" />
       <jump line="297" column="4" filename="/projects/scoodle-api/app/controllers/question_controller.py" />
       <jump line="9" column="47" filename="/projects/scoodle-api/app/controllers/question_controller.py" />
+      <jump line="294" column="8" filename="/projects/scoodle-api/app/controllers/question_controller.py" />
+      <jump line="5" column="0" filename="/projects/scoodle-api/app/controllers/question_controller.py" />
+      <jump line="186" column="29" filename="/projects/scoodle-api/app/controllers/question_controller.py" />
+      <jump line="111" column="33" filename="/projects/scoodle-api/app/controllers/question_controller.py" />
+      <jump line="25" column="14" filename="/projects/scoodle-api/app/controllers/question_controller.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>User</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>User</text>
+        <text>req_json['question_id']</text>
       </register>
       <register name="/" type="4">
-        <text>saved_</text>
+        <text encoding="base64">XDwoXD4=</text>
       </register>
-      <register name="0" type="4">
-        <text>handle_question_db_change)</text>
+      <register name="0" type="2">
+        <text encoding="base64">CgpkZWYgZGFvX2FkZF9hbnN3ZXIoY29udGVudCwgaW1hZ2UsIHF1ZXN0aW9uX2lkLCBhdXRob3JfaWQpOgogICAgYW5zd2VyID0gQW5zd2VyKAogICAgICAgIGNvbnRlbnQ9Y29udGVudCwKICAgICAgICBpbWFnZT1pbWFnZSwKICAgICAgICBxdWVzdGlvbl9pZD1xdWVzdGlvbl9pZCwKICAgICAgICBhdXRob3JfaWQ9YXV0aG9yX2lkCiAgICApCgogICAgZGIuc2Vzc2lvbi5hZGQoYW5zd2VyKQogICAgZGIuc2Vzc2lvbi5jb21taXQoKQoKICAgIHJldHVybiBhbnN3ZXIK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICB0YXJnCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgIHF1ZXN0aW9uID0gYW5zd2VyLnF1ZXN0aW9uCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfSwK</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAga3dhcmdzPXsK</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICBxdWVzdGlvbl9pZD1xdWVzdGlvbl9pZCwK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwZGIKICAgIHBkYi5zZXRfdHJhY2UoKQogICAgcHJpbnQobWFwcGVyKQogICAgCg==</text>
+        <text encoding="base64">ICAgIG1vY2tlci5wYXRjaCgnYXBwLmFwaS5hbnN3ZXIuYW5zd2VyX3Jlc3QuYWRkX3F1ZXN0aW9uX3RvX2VzLmFwcGx5X2FzeW5jJykK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ZGVmIGhhbmRsZV91c2VyX2RiX3VwZGF0ZShtYXBwZXIsIGNvbm5lY3Rpb24sIHRhcmdldCk6Cg==</text>
+        <text encoding="base64">ICAgIGFkZF9xdWVzdGlvbl90b19lcy5hcHBseV9hc3luYygKICAgICAgICBrd2FyZ3M9ewogICAgICAgICAgICAncXVlc3Rpb25faWQnOiBxdWVzdGlvbi5pZCwKICAgICAgICB9LAogICAgICAgIHF1ZXVlPVF1ZXVlTmFtZXMuTUlTQwogICAgKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ZnJvbSBhcHAuY29udHJvbGxlcnMudXNlcl9jb250cm9sbGVyIGltcG9ydCBoYW5kbGVfdXNlcl9kYl91cGRhdGUK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGltcG9ydCBwZGIKICAgIHBkYi5zZXRfdHJhY2UoKQogICAgdXNlciA9IGRhb19nZXRfdXNlcl9ieV9pZCgxKQogICAgZGFvX3ZlcmlmeV91c2VyKHVzZXIpCiAgICAK</text>
+        <text encoding="base64">ICAgIHJlcV9qc29uID0gcmVxdWVzdC5nZXRfanNvbigpCgogICAgY3VycmVudF91c2VyID0gZGFvX2dldF91c2VyX2J5X2lkKGN1cnJlbnRfaWRlbnRpdHkuaWQpCiAgICBhbnN3ZXIgPSBkYW9fYWRkX2Fuc3dlcigKICAgICAgICBjb250ZW50PXJlcV9qc29uWydjb250ZW50J10sCiAgICAgICAgaW1hZ2U9cmVxX2pzb24uZ2V0KCdpbWFnZScpLAo=</text>
       </register>
       <register name=":" type="4">
         <text>x</text>
       </register>
     </registers>
     <search>
-      <last-search>saved_</last-search>
+      <last-search encoding="base64">XDwoXD4=</last-search>
       <last-offset />
-      <last-pattern>saved_</last-pattern>
+      <last-pattern encoding="base64">XDwoXD4=</last-pattern>
       <last-replace>subscription</last-replace>
       <last-substitute>account</last-substitute>
-      <last-dir>1</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
@@ -277,6 +298,9 @@
         <entry>subscription</entry>
         <entry>staging_data</entry>
         <entry>saved_</entry>
+        <entry>answers.author.id</entry>
+        <entry>exclude_ids</entry>
+        <entry encoding="base64">XDwoXD4=</entry>
       </history-search>
       <history-cmd>
         <entry>s/account/subscription/gc</entry>
