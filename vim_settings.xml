@@ -32,7 +32,6 @@
       <file name="/a.dummy" timestamp="1559167604225">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/projects/scoodle-api/app/api/user/user_bank_account_rest.py" timestamp="1559124723643" />
       <file name="/projects/scoodle-api/migrations/versions/211.py" timestamp="1559167642366">
         <mark key="[" line="20" column="0" />
         <mark key="]" line="20" column="0" />
@@ -49,7 +48,6 @@
         <mark key="^" line="1418" column="0" />
         <mark key="." line="1418" column="0" />
       </file>
-      <file name="/projects/scoodle-api/scripts/start_app.sh" timestamp="1559130732205" />
       <file name="/projects/scoodle-api/tests/app/dao/test_user_card_dao.py" timestamp="1559144007359">
         <mark key="[" line="15" column="52" />
         <mark key="]" line="15" column="52" />
@@ -119,12 +117,12 @@
         <mark key="." line="141" column="38" />
         <mark key="^" line="141" column="38" />
       </file>
-      <file name="/projects/scoodle-api/app/dao/user_subscription_dao.py" timestamp="1559167945009">
-        <mark key="'" line="12" column="18" />
-        <mark key="[" line="50" column="52" />
-        <mark key="]" line="50" column="52" />
-        <mark key="^" line="54" column="63" />
-        <mark key="." line="50" column="52" />
+      <file name="/projects/scoodle-api/app/dao/user_subscription_dao.py" timestamp="1559212245762">
+        <mark key="'" line="25" column="39" />
+        <mark key="[" line="25" column="39" />
+        <mark key="]" line="25" column="71" />
+        <mark key="^" line="25" column="71" />
+        <mark key="." line="25" column="71" />
       </file>
       <file name="/projects/scoodle-api/app/clients/stripe_client.py" timestamp="1559129686721">
         <mark key="'" line="72" column="8" />
@@ -159,7 +157,6 @@
         <mark key="^" line="29" column="7" />
         <mark key="." line="29" column="7" />
       </file>
-      <file name="/projects/scoodle-api/app/api/event/event_rest.py" timestamp="1559133950061" />
       <file name="/projects/scoodle-api/models/user_card_model.py" timestamp="1559144315979">
         <mark key="[" line="49" column="34" />
         <mark key="]" line="50" column="58" />
@@ -187,6 +184,7 @@
       <jump line="57" column="70" filename="/projects/scoodle-api/app/controllers/stripe_controller.py" />
       <jump line="44" column="8" filename="/projects/scoodle-api/app/controllers/subscription_controller.py" />
       <jump line="58" column="4" filename="/projects/scoodle-api/app/controllers/subscription_controller.py" />
+      <jump line="25" column="39" filename="/projects/scoodle-api/app/dao/user_subscription_dao.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
@@ -253,6 +251,8 @@
         <entry>q!</entry>
         <entry>x</entry>
       </history-cmd>
+      <history-expr />
+      <history-input />
     </history>
     <shortcut-conflicts />
   </component>
