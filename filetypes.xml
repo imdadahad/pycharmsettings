@@ -4,7 +4,6 @@
     <extensionMap>
       <mapping pattern="Dockerfile-api" type="Dockerfile" />
       <mapping pattern="Dockerfile-db" type="Dockerfile" />
-      <mapping pattern="Pipfile" type="PLAIN_TEXT" />
       <mapping ext="db" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
