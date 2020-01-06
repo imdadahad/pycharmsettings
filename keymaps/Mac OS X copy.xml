@@ -153,8 +153,10 @@
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
   <action id="GotoNextError">
-    <keyboard-shortcut first-keystroke="f2" />
-    <keyboard-shortcut first-keystroke="ctrl a" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="GotoPreviousError">
+    <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="meta r" />
