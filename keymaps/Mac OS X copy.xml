@@ -3,6 +3,9 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="Arrangement.Rule.Remove">
@@ -18,6 +21,7 @@
     <keyboard-shortcut first-keystroke="meta w" />
   </action>
   <action id="CompareTwoFiles" />
+  <action id="Console.Open" />
   <action id="DecrementWindowHeight" />
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
@@ -95,9 +99,7 @@
     <keyboard-shortcut first-keystroke="meta back_slash" />
   </action>
   <action id="IncrementWindowHeight" />
-  <action id="JumpToLastWindow">
-    <keyboard-shortcut first-keystroke="meta t" />
-  </action>
+  <action id="JumpToLastWindow" />
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="alt down" />
   </action>
